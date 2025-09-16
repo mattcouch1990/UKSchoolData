@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from ukeducationdbconnection import UKEducationDB
+from scripts.ETL.ukeducationdbconnection import UKEducationDB
 
 def load_sen_data():
     """Load SEN data with step-by-step verification"""
