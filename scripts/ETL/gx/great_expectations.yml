@@ -112,6 +112,12 @@ fluent_datasources:
         batch_metadata: {}
         table_name: school_performance
         schema_name:
+      ofsted_inspections:
+        type: table
+        order_by: []
+        batch_metadata: {}
+        table_name: ofsted_inspections
+        schema_name:
     connection_string: postgresql://uk_edu_user:TopShark_1990!@localhost:5432/uk_education_analytics
 notebooks:
 include_rendered_content:
